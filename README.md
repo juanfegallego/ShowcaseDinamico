@@ -1,2 +1,2 @@
-# ShowcaseDin-mico
+# ShowcaseDinámico
 Reto GekkHubs

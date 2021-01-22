@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(254, 254, 255);
+}
+
+.container {
+    width: 1300px;
+    margin: auto;
+}
+.container > h1 {
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+}
+
+.container {
+    margin: 10px;
+    position: relative;
+}
+
+#showcase {
+    background-image: url(./imagen/Showcase5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 800px;
+    height: 550px;
+    margin: auto;
+    position: relative;
+    right: 150px;
+   
+}
+
+.content {
+    display: flex;
+}
+
+#wineContainer {
+    width: 195px;
+    height: 93px;
+    position: absolute;
+    top: 125px;
+    right: 165px;
+    margin-top: 20px;
+}
+
+#peanutButter {
+    width: 274px;
+    height: 93px;
+    position: absolute;
+    top: 155px;
+    left: 170px;
+}
+
+#bread {
+    width: 242px;
+    height: 73px;
+    position: absolute;
+    top: 55px;
+    left: 190px;
+}
+
+#flour {
+    width: 200px;
+    right: 165px;
+    position: absolute;
+    top: 55px;
+}
+
+#milk {
+    width: 190px;
+    right: 160px;
+    position: absolute;
+    top: 270px;
+}
+
+#salt {
+    width: 170px;
+    right: 170px;
+    position: absolute;
+    top: 385px;
+}
+
+#water {
+    width: 120px;
+    left: 170px;
+    position: absolute;
+    top: 365px;
+}
+
+#chips {
+    width: 170px;
+    position: absolute;
+    left: 295px;
+    top: 385px;
+}
+
+#ketchup {
+    width: 125px;
+    position: absolute;
+    left: 170px;
+    top: 270px;
+}
+
+#oil {
+    width: 140px;
+    position: absolute;
+    left: 305px;
+    top: 260px;
+}
+
+#shoppingCar {
+    width: 200px;
+    position: absolute;
+    right: -80px;
+    top: 80px;
+}
+
+#pay {
+    position: absolute;
+    right: -120px;
+    top: 90px;
+}
+
+.vinos {
+    width: auto;
+    height: 80px;
+    margin-top: 8px;
+}
+
+.peanut {
+    padding-block: 23px;
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+    margin-top: 7px;
+}
+
+.bread {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+    margin-top: 30px;
+}
+
+.flour {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+    margin-top: 20px;
+}
+
+.milk {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+    margin-top: 10px;
+}
+
+.salt {
+    height: 60px;   
+    width: auto;
+    object-fit: contain;
+    margin-top: 10px;
+}
+
+.water {
+    height: 70px;
+    width: auto;
+    object-fit: contain;
+    margin-top: 20px;
+}
+
+.chip {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+    margin-top: 22px;
+}
+
+.ketchup {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+    margin-top: 10px;
+}
+
+.oil {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+    margin-top: 20px;
+}
+
+.car {
+    width: 300px;
+    padding: 80px;
+    overflow: hidden;
+}
+
+.pay {
+    font-style: oblique;
+    font-size: xx-large;
+}

@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(254, 254, 255);
+    background-color: white;
 }
 
 .container {
@@ -26,7 +26,7 @@ body {
 }
 
 #showcase {
-    background-image: url(./imagen/Showcase5.png);
+    background-image: url(imagen/Showcase3.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -42,21 +42,21 @@ body {
     display: flex;
 }
 
-#wineContainer {
+#wine {
     width: 195px;
     height: 93px;
     position: absolute;
-    top: 125px;
-    right: 165px;
+    top: 128px;
+    right: 150px;
     margin-top: 20px;
 }
 
 #peanutButter {
-    width: 274px;
+    width: 270px;
     height: 93px;
     position: absolute;
-    top: 155px;
-    left: 170px;
+    top: 180px;
+    left: 178px;
 }
 
 #bread {
@@ -64,28 +64,28 @@ body {
     height: 73px;
     position: absolute;
     top: 55px;
-    left: 190px;
+    left: 180px;
 }
 
 #flour {
     width: 200px;
-    right: 165px;
+    right: 173px;
     position: absolute;
     top: 55px;
 }
 
 #milk {
     width: 190px;
-    right: 160px;
+    right: 163px;
     position: absolute;
     top: 270px;
 }
 
-#salt {
+#rice {
     width: 170px;
-    right: 170px;
+    right: 165px;
     position: absolute;
-    top: 385px;
+    top: 395px;
 }
 
 #water {
@@ -105,25 +105,25 @@ body {
 #ketchup {
     width: 125px;
     position: absolute;
-    left: 170px;
+    left: 190px;
     top: 270px;
 }
 
 #oil {
     width: 140px;
     position: absolute;
-    left: 305px;
+    left: 313px;
     top: 260px;
 }
 
 #shoppingCar {
     width: 200px;
     position: absolute;
-    right: -80px;
+    right: -90px;
     top: 80px;
 }
 
-#pay {
+#total {
     position: absolute;
     right: -120px;
     top: 90px;
@@ -133,14 +133,15 @@ body {
     width: auto;
     height: 80px;
     margin-top: 8px;
+    cursor: move;
 }
 
 .peanut {
-    padding-block: 23px;
     height: 50px;
     width: auto;
     object-fit: contain;
     margin-top: 7px;
+    cursor: move;
 }
 
 .bread {
@@ -148,6 +149,7 @@ body {
     width: auto;
     object-fit: contain;
     margin-top: 30px;
+    cursor: move;
 }
 
 .flour {
@@ -155,6 +157,7 @@ body {
     width: auto;
     object-fit: contain;
     margin-top: 20px;
+    cursor: move;
 }
 
 .milk {
@@ -162,13 +165,15 @@ body {
     width: auto;
     object-fit: contain;
     margin-top: 10px;
+    cursor: move;
 }
 
-.salt {
-    height: 60px;   
+.rice {
+    height: 50px;   
     width: auto;
     object-fit: contain;
     margin-top: 10px;
+    cursor: move;
 }
 
 .water {
@@ -176,6 +181,7 @@ body {
     width: auto;
     object-fit: contain;
     margin-top: 20px;
+    cursor: move;
 }
 
 .chip {
@@ -183,6 +189,7 @@ body {
     width: auto;
     object-fit: contain;
     margin-top: 22px;
+    cursor: move;
 }
 
 .ketchup {
@@ -190,6 +197,7 @@ body {
     width: auto;
     object-fit: contain;
     margin-top: 10px;
+    cursor: move;
 }
 
 .oil {
@@ -197,6 +205,7 @@ body {
     width: auto;
     object-fit: contain;
     margin-top: 20px;
+    cursor: move;
 }
 
 .car {
@@ -205,7 +214,13 @@ body {
     overflow: hidden;
 }
 
-.pay {
+.text-right {
     font-style: oblique;
     font-size: xx-large;
+}
+
+.btn-remove {
+    width: 90px;
+    border-radius: 12px;
+
 }
